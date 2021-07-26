@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-weight: bold;
+}
+
+nav {
+    color: black;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+nav input {
+    border: 2px solid black;
+}
+
+nav button {
+    color: white;
+    background-color: rgb(85, 85, 255);
+    box-shadow: 3px 3px black;
+    width: 60px;
+    border: 2px solid black;
+}
+
+main {
+    width: 70%;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-left{
+    flex: 2;
+}
+
+.main-box {
+    min-height: 50px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word-information {
+    padding: 10px;
+    text-align: center;
+}
+
+.word-information button {
+    margin-top: 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    width: 60px;
+    color: black;
+    background-color: tan;
+}
+
+.word-information h3 {
+    margin: 5px;
+}
+
+.definition {
+    padding: 0 10px;
+    text-align: left;
+}
+
+aside {
+    flex: 1;
+    border: 2px solid black;
+    min-height: 20px;
+    padding: 15px;
+}
+
+aside button {
+    color: black;
+    background-color: lightgreen;
+    box-shadow: 3px 3px black;
+    border: 2px solid black;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
